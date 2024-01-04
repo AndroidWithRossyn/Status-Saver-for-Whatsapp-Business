@@ -1,0 +1,57 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/drawable-xhdpi/home_btn.xml" value="0.18" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/drawable/ic_round_btn.xml" value="0.118" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/drawable/ic_sub_top.xml" value="0.1915" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_clean_data.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_clean_option.xml" value="0.2" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_direct.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_help.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_my_status.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_pager_preview.xml" value="0.16" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_privacy.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_recent_status.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_video_preview.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_wall_cleaner.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/activity_waweb.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/ad_banner_lay.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/cleaner_audio_item.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/cleaner_doc_item.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/cleaner_item.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/cleaner_video_item.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/custom_tab.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/dialog_loader.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/empty_files.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/empty_lay.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/exit_popup_lay.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/fragment_clean_list.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/ins_row_photo.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/ins_row_status.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/ins_row_video.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/loader_lay.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/popup_lay.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/preview_list_item.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/slider_item.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/sta_photos.xml" value="0.209375" />
+        <entry key="..\:/APPS/git/status_saver/status_saver/Application/app/src/main/res/layout/sta_videos.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.8" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

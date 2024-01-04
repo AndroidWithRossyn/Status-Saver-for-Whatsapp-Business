@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".DirectChatActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar"
+        android:background="@drawable/ic_sub_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/back" />
+
+
+        <TextView
+            android:id="@+id/topTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/direct_chat"
+            android:textColor="#fff"
+            android:textSize="@dimen/toolbarText" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/txtLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/home_btn"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccp_defaultNameCode="in"
+            app:ccp_textColor="@color/h_btn_text_color"
+            app:ccp_textSize="@dimen/_14sdp" />
+
+        <EditText
+            android:id="@+id/phone_number_edt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/transparent"
+            android:hint="Enter mobile number"
+            android:inputType="phone"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:textColor="@color/h_btn_text_color"
+            android:textColorHint="@color/hint_text_color"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/msg_edt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_below="@+id/txtLay"
+        android:layout_margin="25dp"
+        android:background="@drawable/home_btn"
+        android:gravity="center"
+        android:hint="Enter your message"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/h_btn_text_color"
+        android:textColorHint="@color/hint_text_color"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLay" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg_edt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msg_edt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_15sdp">
+
+            <LinearLayout
+                android:id="@+id/wapp"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/home_btn"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_13sdp" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/resent_status" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

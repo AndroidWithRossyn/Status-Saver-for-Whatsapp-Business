@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar">@dimen/_43sdp</dimen>
+    <dimen name="toolbarText">@dimen/_15ssp</dimen>
+    <dimen name="toolbarTabLayout">30dp</dimen>
+    <dimen name="customtabsize">@dimen/_14sdp</dimen>
+</resources>

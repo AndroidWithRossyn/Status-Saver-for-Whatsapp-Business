@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".DownloadStatusActivity">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_sub_top"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_layoutdiet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/backIV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/topTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Recent Status"
+            android:textColor="#fff"
+            android:textSize="@dimen/toolbarText" />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layoutdiet"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/header"
+        android:paddingBottom="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:tabIndicatorColor="#ffffff"
+        app:tabIndicatorHeight="@dimen/_2sdp"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="#ffffff" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pagerdiet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tab_layoutdiet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layoutdiet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+package com.banrossyn.socialsaver;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.bumptech.glide.Glide;
+
+
+
+public class HelpActivity extends AppCompatActivity {
+
+    ImageView back;
+    ImageView help1, help2, help3, help4;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_help);
+
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        help1 = findViewById(R.id.help1);
+        help2 = findViewById(R.id.help2);
+        help3 = findViewById(R.id.help3);
+        help4 = findViewById(R.id.help4);
+
+        Glide.with(this)
+                .load(R.drawable.step1)
+                .into(help1);
+
+        Glide.with(this)
+                .load(R.drawable.step2)
+                .into(help2);
+
+        Glide.with(this)
+                .load(R.drawable.step3)
+                .into(help3);
+
+        Glide.with(this)
+                .load(R.drawable.step4)
+                .into(help4);
+
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+
+            super.onBackPressed();
+
+    }
+}
