@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".CleanOptionActivity">
+
+    <RelativeLayout
+        android:background="@drawable/ic_sub_top"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_52sdp">
+
+
+        <ImageView
+            android:id="@+id/backIV"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/topTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cleaner"
+            android:textColor="#fff"
+            android:textSize="@dimen/_17sdp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/banner_container"
+        android:layout_below="@+id/header">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:id="@+id/imgBtn"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:text="0B"
+                    android:textColor="@color/mb_text"
+                    android:textSize="@dimen/_10sdp" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/iamge" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/images"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:id="@+id/videoBtn"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/mb_text"
+                    android:text="0B"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/video" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/videos"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:id="@+id/docBtn"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/mb_text"
+                    android:text="0B"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/doc" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/document"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:id="@+id/audioBtn"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/mb_text"
+                    android:text="0B"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/audio" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/audio"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:id="@+id/stickerBtn"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/mb_text"
+                    android:text="0B"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/iamge" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/stickers"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:id="@+id/wallBtn"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/mb_text"
+                    android:text="0B"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/wallp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/wallpaper"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:id="@+id/gifBtn"
+                android:background="@drawable/home_btn"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:paddingRight="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/mb_text"
+                    android:text="0B"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_btn_icon_bg"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/gif" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:text="@string/gifs"
+                    android:textColor="@color/h_btn_text_color"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/ad_banner_lay"/>
+
+</RelativeLayout>

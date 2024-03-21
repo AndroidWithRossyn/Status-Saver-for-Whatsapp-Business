@@ -144,7 +144,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         wAppAlert();
         activateReviewInfo();
-        UpdateApp();
+//        UpdateApp();
         GDPRMessage();
 
         SliderAdapter sliderAdapter = new SliderAdapter(images);

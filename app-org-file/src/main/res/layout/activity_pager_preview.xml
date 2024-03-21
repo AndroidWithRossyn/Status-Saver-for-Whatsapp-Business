@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/backIV"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/ic_round_btn"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/banner_container"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/downloadIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/ic_round_btn"
+                android:src="@drawable/downbtn" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Save"
+                android:textSize="@dimen/_10sdp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/shareIV"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/ic_round_btn"
+                android:src="@drawable/share" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Share"
+                android:textSize="@dimen/_10sdp"/>
+
+            <ImageView
+                android:id="@+id/deleteIV"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/ic_round_btn"
+                android:src="@drawable/pdelete" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Delete"
+                android:textSize="@dimen/_10sdp"/>
+
+            <ImageView
+                android:id="@+id/wAppIV"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/ic_round_btn"
+                android:src="@drawable/pwapp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="RePost"
+                android:textSize="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    <include layout="@layout/ad_banner_lay"/>
+</RelativeLayout>

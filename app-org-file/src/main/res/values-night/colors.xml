@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/home_top_start_color</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">@color/home_top_start_color</color>
+
+    <!--UI Colors-->
+    <color name="splash_bg">#16242E</color>
+    <color name="splash_text">#ffffff</color>
+    <color name="home_top_start_color">#283D4C</color>
+    <color name="home_top_end_color">#283D4C</color>
+    <color name="home_tab_btn_color">#ffffff</color>
+    <color name="h_btn_icon_bg_start_color">#16242E</color>
+    <color name="h_btn_icon_bg_end_color">#16242E</color>
+    <color name="h_bottom_icon_bg_start_color">#283D4C</color>
+    <color name="h_bottom_icon_bg_end_color">#283D4C</color>
+    <color name="h_btn_icon_color">#000000</color>
+    <color name="home_btn_color">#283D4C</color>
+    <color name="home_help_btn">#FFFFFF</color>
+    <color name="bg_color">#16242E</color>
+    <color name="text_home">#FFFFFF</color>
+    <color name="home_tab">#EAF4EB</color>
+    <color name="home_alert_bg">#16242E</color>
+    <color name="h_btn_text_color">#ffffff</color>
+    <color name="chkbox_color">#16242E</color>
+    <color name="round_btn_bg">#80000000</color>
+    <color name="bottom_bg">#80000000</color>
+    <color name="down_text_color">#ffffff</color>
+    <color name="help_text">#ffffff</color>
+    <color name="hint_text_color">#EBEBEB</color>
+
+</resources>

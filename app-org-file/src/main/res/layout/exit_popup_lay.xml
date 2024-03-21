@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/alertLay"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Are You Sure,\nYou Want To Exit?"
+                android:textColor="@color/h_btn_text_color"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:gravity="center">
+
+                    <TextView
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:id="@+id/noBtn"
+                        android:layout_width="@dimen/_65sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="No"
+                        android:paddingBottom="2dp"
+                        android:background="@drawable/home_btn"
+                        android:textColor="@color/h_btn_text_color"
+                        android:textSize="@dimen/_11sdp"
+                        android:gravity="center"/>
+
+
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:id="@+id/yesBtn"
+                        android:background="@drawable/home_btn"
+                        android:layout_width="@dimen/_65sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Yes"
+                        android:paddingBottom="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/h_btn_text_color"
+                        android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

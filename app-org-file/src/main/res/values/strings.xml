@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Status Saver &amp; Cleaner</string>
+
+    <string name="help">Help</string>
+    <string name="click_to_open">Click to open\nWhatsApp or WA Business</string>
+    <string name="recent_status">Recent Status</string>
+    <string name="downloaded_status">Downloaded Status</string>
+    <string name="whatsapp_cleaner">Whatsapp Cleaner</string>
+    <string name="rate_us">Rate</string>
+    <string name="share">Share</string>
+    <string name="privacy">Privacy</string>
+    <string name="more_app">More App</string>
+    <string name="gifs">GIFs</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="document">Document</string>
+    <string name="audio">Audio</string>
+    <string name="voice">Voice</string>
+    <string name="stickers">Stickers</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="delete_items_blank">Delete Selected Items (0)</string>
+    <string name="there_apos_s_nothing_here">There\'s nothing here!</string>
+    <string name="how_to_use">Help</string>
+
+    <!--steps-->
+    <string name="step_1">Step 1</string>
+    <string name="first_step">Tap on \"Click to open\" icon.</string>
+    <string name="step_2">Step 2</string>
+    <string name="second_step">Click to open Whatsapp or WA Business button.</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_three">First you have to see Status from Whatsapp or WA Business.</string>
+    <string name="step_4">Step 4</string>
+    <string name="step_four">Once you seen status in Whatsapp or WA Business then open this application Your seen status will be here in this app and from here you can Download and Share.</string>
+
+    <string name="wa_business_ncleaner">WA Business\nCleaner</string>
+    <string name="mode">Mode</string>
+    <string name="direct_chat">Direct Chat</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="send">Send</string>
+
+    <string name="toast_saved_to_downloads_folder">Saved to downloads folder</string>
+    <string name="notification_title_tap_to_open">Tap to open</string>
+    <string name="notification_text_saved_as">Saved as %s</string>
+    <string name="whatsapp_web">Whatsapp Web</string>
+
+    <string name="wapp_permission">Click on this button and Allow permission to access your status</string>
+    <string name="allow_storage_access">Allow storage access</string>
+    <string name="status_not_available">Status not available.</string>
+    <string name="no_files">There\'s nothing here.</string>
+
+    <!--admob ids-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--MAX ad ids-->
+    <string name="max_banner">b34ce53c8be2a5e3</string>
+    <string name="max_interstitial">4a213e38e69ac2b4</string>
+
+
+</resources>

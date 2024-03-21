@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg_color"
+    android:layout_height="match_parent"
+    tools:context=".CleanDataActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_92sdp"
+        android:background="@drawable/ic_sub_top"/>
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_52sdp">
+
+
+        <ImageView
+            android:id="@+id/backIV"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/topTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cleaner"
+            android:textColor="#fff"
+            android:textSize="@dimen/_17sdp" />
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pagerdiet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/banner_container"
+        android:layout_below="@id/tab_layoutdiet" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layoutdiet"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_height="@dimen/_40sdp"
+        android:paddingBottom="1dp"
+        android:minHeight="@dimen/_40sdp"
+        app:tabIndicatorColor="#ffffff"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="#ffffff" />
+
+    <include layout="@layout/ad_banner_lay"/>
+</RelativeLayout>
